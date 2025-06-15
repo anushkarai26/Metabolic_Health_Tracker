@@ -57,10 +57,16 @@ A smart, automated dashboard project built in Google Sheets that helps track and
 | **Metabolic Score** | Weighted average of mood, sleep, steps (0–100) |
 
 ---
+## 📝 Google Form (Data Entry)
+[Click here to view the form](https://docs.google.com/forms/d/e/1FAIpQLScIOqhAs3jbpn2z4RBrV7ns5EaVCOxvJhE6IlRsQ_gpl38jjg/viewform?usp=header)
 
 ## 📈 Dashboard Preview
 
 ![Metabolic_Health_Tracker - Dashboard-1](https://github.com/user-attachments/assets/9b6c72b3-7fe6-4104-9c50-ec9b08697fb0)
+
+## 📝 Googlesheets
+
+[Click here to view the sheet](https://docs.google.com/spreadsheets/d/1HYZV0eIk7BwNP2OmopyQUBgkzoQfwkYhc-2YEmofqVM/edit?usp=sharing)
 
 ---
 
