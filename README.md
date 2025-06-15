@@ -1,4 +1,4 @@
-# 60-Day Metabolic Health Tracker 📊
+# 60-Day Metabolic Health Tracker 
 
 A smart, automated dashboard project built in Google Sheets that helps track and analyze key metabolic health metrics over a 60-day period, using inputs from Google Forms, real-time calculations, and Apps Script automation.
 
@@ -64,7 +64,7 @@ A smart, automated dashboard project built in Google Sheets that helps track and
 
 ---
 
-## 🛠️ Step-by-Step Setup
+##  Step-by-Step Setup
 
 ### ✅ 1. Create Google Form
 
