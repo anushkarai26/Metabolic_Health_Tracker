@@ -102,8 +102,7 @@ Your linked Sheet should have:
 4. Save and click `Triggers > Add Trigger`
    - Function: `onFormSubmit`
    - Event: From Spreadsheets > On Form Submit
-     
-![project2](https://github.com/user-attachments/assets/2726e1f3-5cf1-4301-b0be-cbce16d11254)
+     ![project2](https://github.com/user-attachments/assets/2726e1f3-5cf1-4301-b0be-cbce16d11254)
 
 
 
