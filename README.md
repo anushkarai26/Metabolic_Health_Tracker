@@ -331,26 +331,6 @@ Pull requests are welcome! 😊
 
 ---
 
-## Setup Guide
-
-### 🔹 1. Copy the Template
-
-📎 [Click here to open the Google Sheet Template](PUT-YOUR-SHEET-LINK-HERE)
-
-- Fill metrics via Google Form
-- Form responses auto-sync to `Health_Data`
-- Dashboard pulls live data
-
-### 🔹 2. Add Script Triggers
-
-> From the sheet: `Extensions → Apps Script`
-
-- Paste `form_auto_sync.gs` to sync data
-- Paste `email_dashboard.gs` for PDF delivery
-- Add `Time-driven trigger` to send PDF monthly
-
----
-
 ## Automatic Monthly Reports
 
 Sends Dashboard as PDF every 1st of the month via email using `emailDashboard()` function.
