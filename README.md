@@ -236,23 +236,21 @@ function emailDashboard() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = ss.getSheetByName("Dashboard");
   const url = ss.getUrl().replace(/edit$/, '');
-
-  const pdfUrl = url + `export?format=pdf&exportFormat=pdf&gid=${sheet.getSheetId()}&portrait=true&fitw=true&top_margin=0.5&bottom_margin=0.5&left_margin=0.5&right_margin=0.5&sheetnames=false&printtitle=false&pagenumbers=false&gridlines=false`;
+  const pdfUrl = url + `export?format=pdf&gid=${sheet.getSheetId()}&portrait=true&fitw=true&sheetnames=false&printtitle=false&pagenumbers=false&gridlines=false`;
 
   const options = {
-    headers: {
-      'Authorization': 'Bearer ' + ScriptApp.getOAuthToken()
-    }
+    headers: { 'Authorization': 'Bearer ' + ScriptApp.getOAuthToken() }
   };
 
-  const response = UrlFetchApp.fetch(pdfUrl, options);
-  const blob = response.getBlob().setName("Metabolic_Health_Report.pdf");
+  const blob = UrlFetchApp.fetch(pdfUrl, options).getBlob().setName("Metabolic_Health_Report.pdf");
 
-  const email = "user@example.com"; // Optional: pull from form or sheet
-  const subject = "Your Monthly Metabolic Health Report";
-  const body = "Attached is your personalized report. Stay healthy!";
-
-  MailApp.sendEmail(email, subject, body, { attachments: [blob] });
+  const email = "your.email@example.com";  // Replace with your actual email
+  MailApp.sendEmail({
+    to: email,
+    subject: "Your Monthly Metabolic Health Dashboard",
+    body: "Attached is your personalized health report for this month!",
+    attachments: [blob]
+  });
 }
 ```
 
