@@ -81,12 +81,6 @@ A smart, automated dashboard project built in Google Sheets that helps track and
 - `Sugary Drinks Intake (ml)`
 - `Calories & Active Minutes`
 - `Sleep, Water, Weight, BMI`
-- **Derived Metrics**: 
-  - Calorie Balance  
-  - Hydration Status  
-  - Sleep Quality  
-  - Sugar Cravings  
-  - Metabolic Score
 
 ---
 
