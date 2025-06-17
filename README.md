@@ -64,6 +64,70 @@ A smart, automated dashboard project built in Google Sheets that helps track and
 
 ![Metabolic_Health_Tracker - Dashboard-1](https://github.com/user-attachments/assets/9b6c72b3-7fe6-4104-9c50-ec9b08697fb0)
 
+### A. North Star Metrics & Key Health Dimensions
+
+#### 🔹 North Star Metrics
+- **Metabolic Score (avg):** `65.1` – Overall lifestyle health indicator (0–100 scale)
+- **Sleep Hours (avg):** `7 hrs` – Core recovery metric
+- **Daily Steps (avg):** `9,028` – Physical activity level
+- **Low Hydration Days:** `25` – Days with <2L water intake
+- **Poor Sleep Days:** `25` – Days with <6 hrs of sleep
+
+#### 🔹 Key Dimensions Tracked
+- `Date`
+- `Mood (1–5)`
+- `Stress Level (1–10)`
+- `Sugary Drinks Intake (ml)`
+- `Calories & Active Minutes`
+- `Sleep, Water, Weight, BMI`
+- **Derived Metrics**: 
+  - Calorie Balance  
+  - Hydration Status  
+  - Sleep Quality  
+  - Sugar Cravings  
+  - Metabolic Score
+
+---
+
+### B. Summary of Key Health Insights
+
+#### - Physical Activity & Calorie Trends
+- While calorie intake fluctuated, **average steps remained above 9,000/day**, supporting positive calorie balance trends.
+- Days with **>60 Active Minutes** aligned with **higher Mood ratings and lower Stress**, confirming the mind-body link.
+
+#### - Sleep & Recovery Patterns
+- Despite a healthy average sleep of `7 hrs`, **25 days were marked "Poor" (<6 hrs)**.
+- **Better Mood** and **lower sugar cravings** consistently aligned with good sleep nights.
+- **Thursday to Saturday** showed the best sleep-mood combo — an ideal period for recovery and habit reset.
+
+#### - Hydration & Cravings
+- Hydration was below 2L on **42% of days**, potentially affecting energy, mood, and cravings.
+- Spikes in **sugary drink intake (>300ml)** correlated with **higher blood sugar** and **lower mood**.
+- Days with **Mood ≤ 2** also featured poor sleep and low hydration, highlighting a triad associated with burnout.
+
+#### - Mood & Stress Patterns
+- **Mood Distribution** skewed positively, with most entries rated `4–5` – a sign of good baseline mental health.
+- Mood dipped midweek with Stress peaking at `8–10`, often following sleep-deficient days.
+- **Lowest mood scores** appeared on Mondays — indicating a behavioural dip at week-start.
+
+---
+
+### C. Recommendations & Next Steps
+
+#### 1. Lifestyle & Wellness Improvements
+-  **Hydration Nudges**: Add smart reminders or habit trackers to reduce "Low Hydration" days.
+-  **Reinforce Sleep Routine**: Target 6.5–8 hrs consistently; capitalize on weekend recovery trends.
+-  **Reduce Sugary Drink Intake**: Substitute with flavoured water or herbal tea on stressful days.
+
+#### 2. Activity Optimization
+-  Aim for **30+ Active Minutes daily** to boost and maintain Metabolic Score >70.
+-  Schedule higher effort days (e.g., intense walks or yoga) between **Thursday–Saturday**.
+
+#### 3. Behavioral Timing
+-  Introduce **Monday micro-routines** (gratitude journaling, quick walks) to offset early-week low mood.
+-  Use **Friday prep rituals** for a strong weekend reset (sleep, meal prep, hydration goals).
+
+
 ## 📝 Googlesheets
 
 [Click here to view the sheet](https://docs.google.com/spreadsheets/d/1HYZV0eIk7BwNP2OmopyQUBgkzoQfwkYhc-2YEmofqVM/edit?usp=sharing)
