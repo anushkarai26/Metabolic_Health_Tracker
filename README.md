@@ -285,8 +285,10 @@ Here’s your updated section in **README.md format**, properly rewritten for Gi
 ├── 📄 README.md                   # Full setup instructions & project overview
 ├── 📄 form_data_sync.gs           # Script to copy Form responses to Health_Data tab
 ├── 📄 dashboard_automation.gs     # Script to email monthly dashboard PDF
-├── 📄 eda_metabolic_health.py     # Optional Python EDA for deeper analysis
-└── 📊 Google Sheets (linked from Google Form)
+├── 📄 metabolic_health_tracker_ed.ipynb     # Python EDA for deeper analysis
+├── 📄 metabolic_health_clean_data.csv     # Cleaned 60 days of data for analysis and project building
+├── 📄 Metabolic_Health_Tracker-Dashboard.pdf    # Dashboard built using Google Sheets from the 60 days of cleaned data
+└── 📊 Metabolic_Health_Tracker.xlsx # actual Google spreadsheets linked to Google Form with Apps Script Integration in Excel format for reference
 ```
 
 ---
