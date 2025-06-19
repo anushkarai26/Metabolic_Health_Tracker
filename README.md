@@ -62,7 +62,7 @@ A smart, automated dashboard project built in Google Sheets that helps track and
 
 ## Dashboard Preview
 
-![Metabolic_Health_Tracker - Dashboard-1](![image](https://github.com/user-attachments/assets/3b4e068a-b736-40eb-9ed9-621931e123a4)
+(![image](https://github.com/user-attachments/assets/3b4e068a-b736-40eb-9ed9-621931e123a4)
 
 
 ### A. North Star Metrics & Key Health Dimensions
@@ -323,6 +323,9 @@ Pull requests are welcome! 😊
 ## Automatic Monthly Reports
 
 Sends Dashboard as PDF every 1st of the month via email using `emailDashboard()` function.
+Sample:
+![Screenshot_20250619-164726_Gmail](https://github.com/user-attachments/assets/e0225c95-1149-46e8-b102-5caace58fd7f)
+
 
 ---
 
