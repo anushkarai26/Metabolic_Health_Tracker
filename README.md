@@ -269,12 +269,6 @@ function emailDashboard() {
 
 ![project4](https://github.com/user-attachments/assets/b5d5f9f2-9f85-4336-81e9-3cbe7844622d)
 
-
-This will automatically email a PDF snapshot of your `Dashboard` tab to the user once a month.
-
----
-Here’s your updated section in **README.md format**, properly rewritten for GitHub and including the **Python EDA file** in the folder structure:
-
 ---
 
 ## 📁 Folder Structure
